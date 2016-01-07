@@ -11,14 +11,14 @@ var IncludeContent = function(data) {
 
 var menu = document.getElementById("header").innerHTML = IncludeContent("templates/partials/Menu.html");
 var slideShow = document.getElementById("slide").innerHTML = IncludeContent("templates/partials/SlideShow.html");
-var basseFood = document.getElementById("baseFood").innerHTML = IncludeContent("templates/partials/baseFood.html");
-var ourChef = document.getElementById("ourChef").innerHTML = IncludeContent("templates/partials/ourChef.html");
-var footer = document.getElementById("footer").innerHTML = IncludeContent("templates/partials/Footer.html");
+//var basseFood = document.getElementById("baseFood").innerHTML = IncludeContent("templates/partials/baseFood.html");
+//var ourChef = document.getElementById("ourChef").innerHTML = IncludeContent("templates/partials/ourChef.html");
+//var footer = document.getElementById("footer").innerHTML = IncludeContent("templates/partials/Footer.html");
 
 
 /**
  * slide
- * */
+ **/
 
 var changePhoto=0;
 var opacitys=0;
@@ -62,6 +62,69 @@ function pre () {
 }
 runners();
 /***************************/
+
+var menuLisst = function() {
+	event.preventDefault();
+var menuList = document.getElementById("menulist").innerHTML = IncludeContent("templates/partials/menuList.html");
+}
+
+//var menuList = document.getElementById("menulist").innerHTML = IncludeContent("templates/partials/menuList.html");
+//Menu List
+
+var menu = [
+	"Fried Rice", "Fried Egg", "Fried Fish", "Fried Chicken", "Fried Egg With Salad",
+	"Fried Rice with Egg", "Fried Rice with Sea Food", "Fried Rice with Bef"
+];
+
+function menuList(){
+	event.preventDefault();
+	var menuList = document.getElementById("menulist").innerHTML = IncludeContent("templates/partials/menuList.html");
+	var list = "";
+	for (var i=0; i<=menu.length; i++) {
+		list += '<li onclick="menulists();"><a href="#friedRice"><span>'+menu[i]+'</span>'
+				+'...................................................................'
+				+'...................................................................'
+				+'...................................................................'
+				+'<span class="pull-right">$12</span></a></li>';
+		//alert(list);
+	}
+	document.getElementById("test").innerHTML= "<ol>"+list+"</ol>";
+}
+//menulists();
+//var menu1 = {
+//	"Fried Rice": 12,
+//	"Fried Egg": 4,
+//}
+//
+//console.log(menu1['Fried Rice']);
+//console.log(menu1);
+
+//var menuList = document.getElementById("menulist").innerHTML = IncludeContent("templates/partials/menuList.html");
+
+/**
+ * llllllllllllllllllllllllllll
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
