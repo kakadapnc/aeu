@@ -1,13 +1,44 @@
 /**
-** Custom stylesheet
+** Import partials stylesheet
 **/
 @import "partials/Header.css";
 @import "partials/Menu.css";
-@import "partials/SlideShow.css";
-@import "partials/SocailNetwork.css";
-@import "partials/Footer.css";
+/*@import "partials/SlideShow.css";*/
+/*@import "partials/SocailNetwork.css";*/
+/*@import "partials/Footer.css";*/
 
-/*
-************************
-*/
+/*General style*/
+.greenLine{
+	border:3px solid green;
+	border-radius:3px;
+	margin-bottom: -18px;
+}
+h2{
+	background:white;
+	width:200px;
+	margin: 0 auto;
+}
+
+/*Our Chef*/
+.photoChef{
+	height : 400px;
+	background-image: url("../images/chef/a.png");
+}
+.photoChefOne{
+	height : 400px;
+	background-image: url("../images/chef/b.png");
+}
+.photoChefTwo{
+	height : 400px;
+	background-image: url("../images/chef/c.png");
+}
+.positionBottom{
+	bottom: -45px;
+}
+.carousel-indicators .active {
+	background : green;
+}
+.carousel-indicators li {
+	border-color : #dadada;
+}
 
