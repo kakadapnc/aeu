@@ -1,23 +1,53 @@
-/**
-** Import partials stylesheet
-**/
-@import "partials/Header.css";
-@import "partials/Menu.css";
-/*@import "partials/SlideShow.css";*/
-/*@import "partials/SocailNetwork.css";*/
-/*@import "partials/Footer.css";*/
+/*******Import partials stylesheet******/
+@import "socail-icon.css";
+
+/*header*/
+img.logo {
+	width: 120px;
+}
+.menu {
+	border: 0px solid;
+	margin-bottom: 2px;
+	border-radius: 0px;
+}
 
 /*General style*/
+body {
+	background: pink;
+}
+.row {
+	background: #f8f8f8;
+}
+
+img[name='da'] {
+	border-bottom: 2px solid pink;
+}
+
 .greenLine{
 	border:3px solid green;
 	border-radius:3px;
 	margin-bottom: -18px;
 }
+
+.lineMenu {
+	border:1px dashed #dadada;
+	margin-top: -7px;
+}
+
+.bg-list {
+	background: #f8f8f8;
+}
+
+ol.menuList li {
+	margin: 20px 0;
+}
+
 h2{
-	background:white;
+	background:#f8f8f8;
 	width:200px;
 	margin: 0 auto;
 }
+
 
 /*Our Chef*/
 .photoChef{
@@ -41,3 +71,12 @@ h2{
 .carousel-indicators li {
 	border-color : #dadada;
 }
+
+
+/*footer*/
+.footer {
+	background : darkgreen !important;
+	color: white;
+}
+
+

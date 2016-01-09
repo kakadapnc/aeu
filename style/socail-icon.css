@@ -1,4 +1,4 @@
-
+/*socail icon*/
 ul.social-icons li.facebook {
 	background-position: 0 -32px;
 }
@@ -27,7 +27,7 @@ ul.social-icons li {
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;
-	background-image: url("../../images/social-icons.png");
+	background-image: url("../images/social-icons.png");
 	background-repeat: no-repeat;
 	background-size: 221px;
 	display: inline-block;
