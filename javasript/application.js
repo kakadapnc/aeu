@@ -117,9 +117,9 @@ document.getElementById("footer").innerHTML = IncludeContent("partials/footer.ht
 var menu = [
 	"Fried Rice", "Fried Egg", "Fried Fish", "Fried Chicken", "Fried Egg With Salad",
 	"Fried Rice with Egg", "Fried Rice with Sea Food", "Fried Rice with Bef", "Fish Fried",
-	"Ham Fried", "Pig Fried", "Soup Fish", "Soup Bef", "Soup Chicken", "Kor Kor Soup"
+	"Ham Fried", "Pig Fried", "Soup Fish", "Soup Bef", "Soup Chicken", "Kor Kor Soup", "Arathna","test"
 ];
-var price = [12, 7, 13, 12, 10, 15, 7, 4, 2, 6, 3, 18, 12, 18, 25]
+var price = [12, 7, 13, 12, 10, 15, 7, 4, 2, 6, 3, 18, 12, 18, 25, 24,100]
 
 /**
  * List menu
@@ -135,6 +135,7 @@ function foodMenu(){
 	runners();
 
 }
+
 
 
 

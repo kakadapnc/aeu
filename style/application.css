@@ -24,7 +24,7 @@ img[name='da'] {
 }
 
 .greenLine{
-	border:3px solid green;
+	border:3px solid red;
 	border-radius:3px;
 	margin-bottom: -18px;
 }
